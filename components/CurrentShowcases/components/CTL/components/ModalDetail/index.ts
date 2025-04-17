@@ -1,0 +1,1 @@
+export { ModalDetail } from './ModalDetail';

@@ -1,0 +1,25 @@
+.container {
+    border-radius: 4px;
+    width: 100%;
+    max-width: 366px;
+
+    & .btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    & .buttonGroup {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    & .paragraph {
+        text-align: center;
+    }
+}
+
+.title {
+    font-size: 26px;
+}

@@ -1,0 +1,14 @@
+.container {
+    flex: 1;
+    height: calc(100vh - 100px);
+}
+
+.map {
+    width: 155px;
+    height: 200px;
+}
+
+.react-flow {
+    --xy-edge-stroke-default: black;
+    height: 96% !important;
+}

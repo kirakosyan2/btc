@@ -1,0 +1,40 @@
+.leftContainer {
+    width: 100%;
+
+    & .title {
+        text-align: center;
+    }
+
+    & .list {
+        width: 100%;
+    }
+}
+
+.rightContainer {
+    width: 100%;
+
+    & .title {
+        text-align: center;
+    }
+
+    & .list {
+        width: 100%;
+    }
+}
+
+.content {
+    width: 100%;
+    column-gap: 20px;
+
+    & .item {
+        width: 48%;
+    }
+
+    & .itemFull {
+        width: 100%;
+    }
+}
+
+.divider {
+    height: auto;
+}

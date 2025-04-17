@@ -1,0 +1,36 @@
+@use 'src/assets/styles/colors.scss';
+
+.title {
+  text-align: center;
+}
+
+.textarea {
+  height: 150px !important;
+}
+
+.btn {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.date {
+  font-weight: normal;
+  opacity: 0.4;
+}
+
+.adminText {
+  color: colors.$green;
+  margin-bottom: 0!important;
+}
+
+.adminTextAnswer {
+  white-space: pre-wrap!important;
+}

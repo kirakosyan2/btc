@@ -1,0 +1,1 @@
+export { FormScalaEditor } from './FormScalaEditor';

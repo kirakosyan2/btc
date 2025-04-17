@@ -1,0 +1,1 @@
+export { ModalDatamart } from './ModalDatamart';

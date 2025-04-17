@@ -1,0 +1,47 @@
+@use 'src/assets/styles/colors.scss';
+
+.container {
+    & .title {
+        text-align: center;
+    }
+
+    & .content {
+        margin-top: 40px;
+
+        & .text {
+            font-size: 18px;
+        }
+
+        & .question {
+            font-size: 16;
+            margin-bottom: 0;
+            margin-left: 40px;
+        }
+
+        & .correct {
+            color: colors.$green;
+        }
+
+        & .incorrect {
+            color: colors.$red;
+        }
+    }
+
+    & .containerBtn {
+        margin-top: 40px;
+
+        & .btn {
+            width: 200px;
+            text-align: center;
+            color: colors.$white;
+            background: colors.$dark-primary;
+            font-size: 16px;
+            line-height: 1.5;
+            height: 40px;
+            padding: 7px 15px;
+            border-radius: 8px;
+            transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+            box-shadow: 0 2px 0 rgba(11, 74, 130, 0.16);
+        }
+    }
+}

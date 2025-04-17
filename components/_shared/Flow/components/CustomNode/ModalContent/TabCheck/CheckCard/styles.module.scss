@@ -1,0 +1,61 @@
+@use 'src/assets/styles/colors.scss';
+
+.container {
+    width: 100%;
+    margin-bottom: 40px;
+
+    & .delete-icon {
+        color: colors.$red;
+        opacity: 0.7;
+        transition: opacity 0.3s ease;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    & .tooltipContainer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        & .text {
+            margin-bottom: 0;
+        }
+    }
+
+    & .containerTitles {
+        margin-top: 8px;
+
+        & .title {
+            margin-top: 0 !important;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    & .formList {
+        width: 100%;
+        &Content {
+            width: 100%;
+            & .formListItem {
+                width: 100%;
+            }
+
+            & .icon {
+                height: fit-content;
+                transform: translate(0, 10%);
+            }
+        }
+    }
+
+    & .containerBtn {
+        margin-top: 40px;
+
+        & .btn {
+            width: 200px;
+            margin-left: -40px;
+        }
+    }
+}

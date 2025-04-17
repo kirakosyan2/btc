@@ -1,0 +1,52 @@
+.leftContainer {
+    width: 70%;
+
+    & .title {
+        text-align: center;
+    }
+
+    & .list {
+        width: 100%;
+
+        & .content {
+            justify-content: space-between;
+
+            & .item {
+                width: 200px;
+            }
+        }
+    }
+}
+
+.rightContainer {
+    width: 100%;
+
+    & .title {
+        text-align: center;
+    }
+
+    & .list {
+        width: 100%;
+
+        & .content {
+            justify-content: space-between;
+
+            & .item {
+                width: 136px;
+            }
+        }
+    }
+}
+
+.content {
+    width: 100%;
+    column-gap: 20px;
+
+    & .item {
+        width: 48%;
+    }
+}
+
+.divider {
+    height: auto;
+}

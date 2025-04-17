@@ -1,0 +1,28 @@
+.container {
+    & .title {
+        text-align: center;
+    }
+
+    & .prefix {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        gap: 5px;
+    }
+
+    & .content {
+        &Item {
+            width: 100%;
+        }
+    }
+
+    & .btn {
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    & .prefix-container {
+        margin-top: 10px;
+    }
+}

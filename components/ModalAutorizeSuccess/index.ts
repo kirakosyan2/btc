@@ -1,0 +1,1 @@
+export { ModalAutorizeSuccess } from './ModalAutorizeSuccess';

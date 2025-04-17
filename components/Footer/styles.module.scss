@@ -1,0 +1,27 @@
+@use 'src/assets/styles/colors.scss';
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f3fa;
+    position: relative;
+
+    & .text {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 0;
+        font-size: medium;
+
+        & .select {
+            margin-bottom: 0;
+        }
+    }
+
+    & .float {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+}

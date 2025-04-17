@@ -1,0 +1,25 @@
+@use 'src/assets/styles/colors.scss';
+
+.containerMeta {
+    position: relative;
+
+    & .userFullName {
+        position: absolute;
+        top: -5px;
+        right: 0;
+        opacity: 0.3;
+        font-size: 13px;
+    }
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.answer {
+    color: colors.$green;
+}
+
+.like {
+    color: colors.$light-blue;
+}

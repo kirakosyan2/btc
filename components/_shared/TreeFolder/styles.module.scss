@@ -1,0 +1,13 @@
+.tree {
+    height: auto !important;
+    min-height: 200px !important;
+    max-height: 600px !important;
+    margin-top: 20px;
+    overflow-y: hidden !important;
+}
+
+div[role='tree'] {
+    height: auto !important;
+    width: auto !important;
+    overflow: hidden !important;
+}

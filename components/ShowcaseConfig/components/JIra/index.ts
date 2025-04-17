@@ -1,0 +1,1 @@
+export { TableJira } from './TableJira';

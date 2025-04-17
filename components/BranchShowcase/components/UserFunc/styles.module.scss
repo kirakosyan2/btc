@@ -1,0 +1,45 @@
+@use 'src/assets/styles/colors.scss';
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+
+    & .editor {
+        max-width: 60%;
+        width: 100%;
+    }
+
+    & .divider {
+        height: auto;
+    }
+
+    & .spinner {
+        width: 359px;
+        height: 372px;
+    }
+
+    & .btnContainer {
+        width: 100%;
+
+        & .imageGigaCode {
+            width: 200px;
+            cursor: pointer;
+        }
+
+        & .disabled {
+            opacity: 0.3;
+        }
+    }
+}
+
+.title {
+    text-align: center;
+}

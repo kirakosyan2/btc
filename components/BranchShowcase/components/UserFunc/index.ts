@@ -1,0 +1,1 @@
+export { UserFunc } from './UserFunc';

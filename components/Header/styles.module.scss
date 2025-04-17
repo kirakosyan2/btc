@@ -1,0 +1,51 @@
+@use 'src/assets/styles/colors.scss';
+
+.container {
+    padding: 10px;
+    background-color: colors.$white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+
+    & .title {
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    & .text {
+        font-size: 20px;
+        margin: 0;
+        color: colors.$black;
+        word-break: break-word;
+        cursor: pointer;
+    }
+
+    & .upper {
+        text-transform: uppercase;
+    }
+
+    & .icon {
+        cursor: pointer;
+    }
+
+    & .logo {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        margin-top: 3px;
+    }
+}
+
+.textItem {
+    margin-bottom: 0 !important;
+}
+
+.select {
+    margin-bottom: 0;
+}
+
+.textVersion {
+    margin-bottom: 0 !important;
+    height: fit-content;
+}

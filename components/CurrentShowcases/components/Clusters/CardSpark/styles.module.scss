@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    max-width: 440px;
+
+    & .textarea {
+        max-height: 250px;
+        min-height: 200px;
+        cursor: default;
+    }
+}

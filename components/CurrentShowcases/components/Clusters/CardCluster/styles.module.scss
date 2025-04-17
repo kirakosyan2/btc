@@ -1,0 +1,30 @@
+// TODO: разобраться почему не работают вместе 2 импорта
+// @use 'src/assets/styles/corners';
+@use 'src/assets/styles/colors';
+
+.container {
+    width: 340px;
+
+    & .text {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 0;
+    }
+
+    & .btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    & .danger {
+        background-color: colors.$red;
+        color: colors.$white;
+    }
+
+    & .danger:disabled {
+        // @include corners.disabled();
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+    }
+}

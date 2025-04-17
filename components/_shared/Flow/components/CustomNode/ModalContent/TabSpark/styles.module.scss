@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    & .formList {
+        width: 100%;
+        &Content {
+            width: 100%;
+            & .formListItem {
+                width: 100%;
+            }
+
+            & .icon {
+                height: fit-content;
+                transform: translate(0, 10%);
+            }
+        }
+    }
+
+    & .tooltipContainer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        & .text {
+            margin-bottom: 0;
+        }
+    }
+
+    & .containerBtn {
+        flex-grow: 1;
+        & .btn {
+            width: 200px;
+            align-self: center;
+            margin-left: -40px;
+        }
+    }
+}

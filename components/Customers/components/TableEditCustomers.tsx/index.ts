@@ -1,0 +1,1 @@
+export { TableEditCustomers } from './TableEditCustomers';

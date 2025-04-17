@@ -1,0 +1,1 @@
+export { ModalNodeDetail } from './ModalNodeDetail';

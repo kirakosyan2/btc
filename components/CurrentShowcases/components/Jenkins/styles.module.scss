@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+
+    & .icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    & .title {
+        text-align: center;
+    }
+
+    & .content {
+        &Item {
+            width: 100%;
+        }
+
+        & .containerBtn {
+            width: 100%;
+        }
+
+        & .btn {
+            margin-bottom: 10px;
+            width: 100%;
+            height: fit-content;
+        }
+
+        & .link {
+            width: 100%;
+            height: fit-content;
+        }
+    }
+}

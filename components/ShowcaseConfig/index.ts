@@ -1,0 +1,1 @@
+export { ShowcaseConfig } from './ShowcaseConfig';

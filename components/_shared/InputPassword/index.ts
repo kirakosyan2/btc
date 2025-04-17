@@ -1,0 +1,1 @@
+export {UIInputPassword} from './InputPassword'

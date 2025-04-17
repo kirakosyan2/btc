@@ -1,0 +1,57 @@
+.container {
+    & .icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    & .title {
+        text-align: center;
+    }
+    & .text {
+        margin-bottom: 0;
+        display: flex;
+        gap: 5px;
+    }
+    & .tooltipContainer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    & .Entity {
+        width: 100%;
+    }
+    & .entityItem {
+        width: 100%;
+    }
+    & .btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+    & .btnContainer {
+        width: 100%;
+
+        & .btnParams {
+            width: 100%;
+            margin: 32px 0;
+        }
+    }
+
+    & .formSelect,
+    & .formButton {
+        width: 100%;
+    }
+    & .ItemFlex {
+        width: 265px;
+        margin-right: 15px;
+    }
+
+    & .input {
+        width: 100%;
+    }
+}
+
+.alert{
+    margin-bottom: 10px;
+}

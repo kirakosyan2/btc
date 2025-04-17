@@ -1,0 +1,1 @@
+export { TabStatistic } from './TabStatistic';

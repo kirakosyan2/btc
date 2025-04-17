@@ -1,0 +1,1 @@
+export { ModalDetailGlobalParams } from './ModalDetailGlobalParams';

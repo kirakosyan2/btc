@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+
+    & .hintIcon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    & .title {
+        text-align: center;
+    }
+
+    & .text {
+        gap: 5px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    &Item {
+        width: 100%;
+    }
+
+    & .btn {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    & .formList {
+        width: 100%;
+
+        &Item {
+            width: 100%;
+        }
+    }
+}
+
+.aletr {
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-bottom: 5px;
+}
+
+.tooltipContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

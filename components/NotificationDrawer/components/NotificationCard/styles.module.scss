@@ -1,0 +1,36 @@
+@use 'src/assets/styles/colors.scss';
+
+.container {
+    cursor: pointer;
+    padding-bottom: 10px;
+
+    & .icon {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    & .notificationContainer {
+        position: relative;
+
+        & .image {
+            margin-left: 15px;
+        }
+
+        & .point {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            background-color: colors.$primary;
+            position: absolute;
+        }
+    }
+
+    & .content {
+        width: 420px;
+        & .title {
+            margin-bottom: 0 !important;
+        }
+    }
+}

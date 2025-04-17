@@ -1,0 +1,1 @@
+export { TableGeneralSettings } from './TableGeneralSessings';

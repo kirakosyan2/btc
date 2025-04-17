@@ -1,0 +1,1 @@
+export { ModaLQA } from './ModaLQA';

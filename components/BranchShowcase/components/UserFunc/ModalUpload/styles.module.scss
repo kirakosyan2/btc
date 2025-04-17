@@ -1,0 +1,28 @@
+@use 'src/assets/styles/colors.scss';
+
+.title {
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+.container {
+    margin-top: 40px;
+    width: 100%;
+
+    & .dragging {
+        width: 100%;
+
+        & .icon {
+            color: colors.$confluence;
+        }
+
+        & .text {
+            margin-bottom: 0 !important;
+            font-size: 18px;
+        }
+
+        & .spinner {
+            height: 51.45px;
+        }
+    }
+}

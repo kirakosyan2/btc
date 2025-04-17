@@ -1,0 +1,1 @@
+export { TableEditAcesBlock } from './TableEditAcesBlock';

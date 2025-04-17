@@ -1,0 +1,13 @@
+@use 'src/assets/styles/colors.scss';
+
+.icon {
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.5;
+    color: colors.$red;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+        opacity: 1;
+    }
+}

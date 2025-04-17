@@ -1,0 +1,55 @@
+.content {
+    & .title {
+        text-align: center;
+    }
+
+    & .tooltipContainer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        & .text {
+            margin-bottom: 0;
+        }
+    }
+
+    & .containerTitles {
+        margin-top: 8px;
+
+        & .title {
+            margin-top: 0 !important;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    & .formList {
+        width: 100%;
+        &Content {
+            width: 100%;
+            & .formListItem {
+                width: 100%;
+            }
+
+            & .icon {
+                height: fit-content;
+                transform: translate(0, 10%);
+            }
+        }
+    }
+
+    .icon {
+        margin-bottom: 15px;
+        width: 5px;
+        height: 5px;
+    }
+
+    & .containerBtn {
+        margin-top: 40px;
+
+        & .btn {
+            width: 200px;
+            margin-left: -40px;
+        }
+    }
+}

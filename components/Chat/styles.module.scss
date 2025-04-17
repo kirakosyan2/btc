@@ -1,0 +1,136 @@
+@use 'src/assets/styles/colors.scss';
+
+.title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+
+.iconSize {
+    cursor: pointer;
+}
+
+.messageInput {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 8px 12px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    overflow-y: auto;
+    outline: none;
+    white-space: pre-wrap;
+    word-break: break-word;
+    transition:
+        border-color 0.3s,
+        box-shadow 0.3s,
+        height 0.3s;
+
+    &.fullWidth {
+        height: 70px;
+    }
+
+    &:focus {
+        border-color: #1890ff;
+        box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    }
+
+    &[contentEditable='true']:empty:before {
+        content: attr(data-placeholder);
+        color: #a0a0a0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    &.empty:before {
+        content: attr(data-placeholder) !important;
+        color: #a0a0a0;
+        position: absolute;
+        pointer-events: none;
+    }
+}
+
+.icon {
+    color: colors.$white;
+    cursor: pointer;
+    background: green;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > span > svg {
+        transform: translateX(0%);
+    }
+}
+
+.disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.spinner {
+    width: 38px;
+    height: 35px;
+}
+
+.container {
+    & .message {
+        align-items: flex-start;
+        padding: 8px 16px;
+        overflow-y: hidden;
+        border-radius: 18px;
+        max-width: 80%;
+        font-weight: 500;
+
+        & > ul,
+        ol {
+            margin: 10px 0;
+        }
+
+        & > hr {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        & > p {
+            margin: 0 !important;
+        }
+
+        & > pre {
+            margin: 10px 0 !important;
+        }
+
+        & > table {
+            margin-bottom: 10px;
+            border-collapse: collapse !important;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        & > * {
+            th,
+            td {
+                border: 1px solid colors.$black;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: colors.$light-grey;
+            }
+        }
+    }
+
+    & .sender {
+        color: colors.$white;
+        background-color: colors.$grey;
+    }
+
+    & .consumer {
+        background-color: colors.$light-white;
+    }
+}

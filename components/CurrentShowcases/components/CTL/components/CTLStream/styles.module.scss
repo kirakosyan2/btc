@@ -1,0 +1,23 @@
+@use 'src/assets/styles/colors.scss';
+
+.container {
+    width: 48%;
+    height: 150px;
+
+    & .text {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    & .btn {
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    & .danger {
+        background-color: colors.$red;
+        color: white;
+    }
+}

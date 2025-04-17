@@ -1,0 +1,1 @@
+export { TestResultationPage } from './TestResultationPage'

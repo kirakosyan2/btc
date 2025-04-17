@@ -1,0 +1,36 @@
+@use 'src/assets/styles/colors.scss';
+
+.form {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+
+    & .icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    & .title {
+        text-align: center;
+    }
+
+    & .ddl {
+        background-color: colors.$white;
+    }
+
+    & .btn {
+        width: 100%;
+    }
+}
+
+.containerBtn {
+    margin-top: 40px;
+
+    & .btn {
+        width: 200px;
+    }
+}

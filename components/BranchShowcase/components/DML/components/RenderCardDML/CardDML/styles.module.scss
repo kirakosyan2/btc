@@ -1,0 +1,25 @@
+.container {
+    width: 48%;
+    height: 200px;
+
+    & .blockTitle {
+        display: flex;
+
+        & .text {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 0;
+            width: fit-content;
+            margin-right: 8px;
+            white-space: nowrap;
+        }
+    }
+
+    .containerBtn {
+        margin-top: 20px;
+
+        flex & .btn {
+            margin-top: 20px;
+        }
+    }
+}

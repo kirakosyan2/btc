@@ -1,0 +1,1 @@
+export { BranchShowcasesCard } from './BranchShowcasesCard';

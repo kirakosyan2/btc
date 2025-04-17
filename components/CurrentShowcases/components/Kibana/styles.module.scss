@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+
+    & .icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    & .title {
+        text-align: center;
+    }
+
+    & .content {
+        margin-top: 20px;
+    }
+
+    & .btn {
+        width: 200px;
+        margin-top: 20px;
+    }
+}

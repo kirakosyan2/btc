@@ -1,0 +1,55 @@
+@use 'src/assets/styles/colors.scss';
+
+.container {
+    & .hintIcon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    & .title {
+        text-align: center;
+    }
+
+    & .text {
+        margin-top: 4px;
+        text-align: center;
+    }
+
+    & .tooltipContainer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    & .entityItem {
+        width: 100%;
+    }
+
+    & .btn {
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    & .itemFlex {
+        width: 100%;
+    }
+
+    & .titleBlock {
+        margin-bottom: 20px;
+    }
+
+    & .icon {
+        margin-top: 54px;
+    }
+
+    & .collapse {
+        background-color: colors.$white;
+    }
+
+    & .danger {
+        background-color: colors.$red;
+        color: colors.$white;
+    }
+}

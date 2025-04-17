@@ -1,0 +1,1 @@
+export { CTLContentTab } from './CTLContentTab';

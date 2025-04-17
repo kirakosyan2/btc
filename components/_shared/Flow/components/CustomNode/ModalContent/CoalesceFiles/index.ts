@@ -1,0 +1,1 @@
+export { CoalesceFiles } from './CoalesceFiles';

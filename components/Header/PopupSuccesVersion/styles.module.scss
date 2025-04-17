@@ -1,0 +1,15 @@
+.title {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 40px;
+
+    & .btn {
+        width: 200px;
+    }
+}

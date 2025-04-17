@@ -1,0 +1,15 @@
+.card {
+    width: fit-content;
+    width: 252px;
+
+    & .text {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 0;
+    }
+
+    & .btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+}

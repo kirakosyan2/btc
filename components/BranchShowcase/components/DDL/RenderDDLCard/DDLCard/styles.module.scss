@@ -1,0 +1,41 @@
+@use 'src/assets/styles/colors';
+
+.container {
+    width: 100%;
+
+    & .blockTitle {
+        display: flex;
+
+        & .text {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 0;
+            width: fit-content;
+            margin-right: 8px;
+            white-space: nowrap;
+        }
+    }
+
+    .containerBtn {
+        & .btn {
+            width: 25%;
+            margin-top: 30px;
+        }
+
+        & .danger {
+            background-color: colors.$red;
+            color: colors.$white;
+        }
+
+        & .danger:disabled {
+            // @include corners.disabled();
+            border-color: #d9d9d9;
+            color: rgba(0, 0, 0, 0.25);
+            background: rgba(0, 0, 0, 0.04);
+        }
+
+        & .icon {
+            margin-top: 30px;
+        }
+    }
+}

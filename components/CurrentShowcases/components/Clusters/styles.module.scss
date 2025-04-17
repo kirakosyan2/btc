@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+
+    & .icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    & .title {
+        text-align: center;
+    }
+
+    & .btnCreate {
+        width: 400px;
+        margin-top: 15px;
+    }
+
+    &Item {
+        width: 100%;
+    }
+
+    & .emptyText {
+        text-align: center;
+        font-size: 22px;
+    }
+}

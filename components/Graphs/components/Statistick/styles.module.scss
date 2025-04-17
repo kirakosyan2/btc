@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+
+    & .title {
+        text-align: center;
+    }
+
+    & .text {
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,1 @@
+export { PersonalCabinet } from './PersonalCabinet';

@@ -1,0 +1,1 @@
+export { CTLContentDetail } from './CTLContentDetail';

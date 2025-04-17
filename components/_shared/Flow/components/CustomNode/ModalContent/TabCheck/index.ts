@@ -1,0 +1,1 @@
+export { TabCheck } from './TabCheck';

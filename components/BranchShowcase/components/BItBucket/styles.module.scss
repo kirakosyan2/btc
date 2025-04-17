@@ -1,0 +1,42 @@
+.form {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+
+    & .icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    &Item {
+        width: 100%;
+    }
+
+    & .title {
+        text-align: center;
+    }
+
+    & .btn {
+        width: 100%;
+    }
+
+    & .content {
+        &Item {
+            width: 100%;
+        }
+    }
+
+    .tooltipContainer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    & .tooltip {
+        margin-bottom: 5px;
+    }
+}

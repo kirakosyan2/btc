@@ -1,0 +1,15 @@
+.container {
+    & .title {
+        text-align: center;
+    }
+
+    & .tooltipContainer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        & .text {
+            margin-bottom: 0;
+        }
+    }
+}

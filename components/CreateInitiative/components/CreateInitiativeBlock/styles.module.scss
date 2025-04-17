@@ -1,0 +1,16 @@
+.container {
+    & .title {
+        text-align: center;
+    }
+
+    & .content {
+        &Item {
+            width: 100%;
+        }
+    }
+
+    & .btn {
+        margin-top: 20px;
+        width: 200px;
+    }
+}

@@ -1,0 +1,13 @@
+.btn {
+    width: 500px;
+}
+
+.tooltipContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    & .text {
+        margin-bottom: 0;
+    }
+}

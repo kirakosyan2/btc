@@ -1,0 +1,46 @@
+.form {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+
+    & .icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    & .title {
+        margin-top: 0 !important;
+        text-align: center;
+    }
+
+    & .text {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    & .link {
+        margin-top: 43px;
+        margin-bottom: 0 !important;
+        font-size: 18px;
+        display: block;
+    }
+
+    & .titleBlock {
+        display: flex;
+        align-items: center;
+    }
+
+    & .btn {
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    & .formListItem {
+        font-size: 16px;
+    }
+}

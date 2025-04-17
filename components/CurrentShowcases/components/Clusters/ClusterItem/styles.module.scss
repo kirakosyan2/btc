@@ -1,0 +1,77 @@
+.container {
+    & .text {
+        margin-bottom: 0;
+        display: flex;
+        gap: 5px;
+    }
+
+    & .tooltipContainer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        & .acesText {
+            text-transform: uppercase;
+        }
+    }
+
+    & .content {
+        margin-top: 25px;
+
+        &Item {
+            width: 100%;
+        }
+    }
+
+    & .formList {
+        width: 100%;
+        margin-top: 8px;
+
+        &Content {
+            width: 100%;
+        }
+
+        &Item {
+            width: 100%;
+        }
+    }
+
+    &Titles {
+        margin-top: 8px;
+
+        & .title {
+            margin-top: 0 !important;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    & .textArea {
+        min-height: 300px;
+        max-height: 500px;
+    }
+
+    & .cardsSparkContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    & .textareaView {
+        margin-top: 30px;
+    }
+
+    & .btn {
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    & .icon {
+        margin-top: 5px;
+    }
+
+    & .icon-source {
+        margin-top: 2px;
+    }
+}

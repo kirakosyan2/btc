@@ -1,0 +1,48 @@
+.form {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+
+    & .icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    &Titles {
+        & .title {
+            margin-top: 0 !important;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    & .title {
+        text-align: center;
+    }
+
+    & .titleBlock {
+        display: flex;
+        align-items: center;
+    }
+
+    & .formList {
+        width: 100%;
+
+        &Content {
+            width: inherit;
+        }
+
+        &Item {
+            width: 100%;
+        }
+    }
+
+    & .btn {
+        margin-top: 20px;
+    }
+}

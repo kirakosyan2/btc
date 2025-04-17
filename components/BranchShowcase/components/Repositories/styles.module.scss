@@ -1,0 +1,59 @@
+.form {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+
+    & .icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    & .title {
+        text-align: center;
+    }
+
+    & .containerBtn {
+        width: 100%;
+
+        & .btn {
+            width: 100%;
+            margin-top: 1rem;
+        }
+    }
+
+    & .btn_link {
+        width: 100%;
+    }
+
+    & .content {
+        &Item {
+            width: 100%;
+        }
+
+        & .dateTime {
+            white-space: nowrap;
+        }
+    }
+}
+
+.ant-notification-notice-description {
+    margin-left: 0;
+
+    & .listNotification {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    & .contentNotification {
+        white-space: pre-line;
+        overflow-y: auto;
+        max-height: 500px;
+        display: block;
+    }
+}

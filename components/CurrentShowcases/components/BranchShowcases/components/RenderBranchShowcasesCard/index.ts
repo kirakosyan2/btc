@@ -1,0 +1,1 @@
+export { RenderBranchShowcasesCard } from './RenderBranchShowcasesCard';

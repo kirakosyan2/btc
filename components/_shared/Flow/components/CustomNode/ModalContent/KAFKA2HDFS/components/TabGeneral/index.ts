@@ -1,0 +1,1 @@
+export { TabGeneral } from './TabGeneral';

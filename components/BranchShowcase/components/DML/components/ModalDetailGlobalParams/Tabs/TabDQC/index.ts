@@ -1,0 +1,1 @@
+export { TabDQC } from './TabDQC'
